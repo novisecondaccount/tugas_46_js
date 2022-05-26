@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 46 JS</title>
+</head>
+<body>
+    <p>Click Untuk Merubah Warna.</p>
+
+    <button onclick="myFunction()">Ubah Warna</button>
+
+    <script type="text/javascript">
+        function myFunction(){
+            var warna = window.prompt("Ketikkan warna yang kamu inginkan (English)")
+            if(warna!=null){
+                document.body.style.backgroundColor = warna
+            }
+        }
+    </script>
+</body>
+</html>
